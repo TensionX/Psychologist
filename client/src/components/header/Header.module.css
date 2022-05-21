@@ -1,0 +1,74 @@
+.header {
+  background: var(--dark-text);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: auto;
+  padding: 10px 40px 10px 40px;
+}
+
+.logoHead {
+  width: 137px;
+  height: 40px;
+}
+
+.logOut {
+  width: 18px;
+  height: 18px;
+
+  cursor: pointer;
+}
+
+.rightSide {
+  display: flex;
+  align-items: center;
+}
+.whatsAppSetting {
+  display: flex;
+  align-items: center;
+}
+
+.whatsAppIcon {
+  width: 24px;
+  height: 24px;
+  margin-right: 6px;
+}
+
+.connect {
+  font-weight: 500;
+  font-size: 14px;
+  color: #00e676;
+  margin-right: 6px;
+  cursor: default;
+}
+
+.disconnect {
+  font-size: 14px;
+  text-decoration: underline;
+  color: #fff;
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+.loader {
+  color: var(--grey-color);
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 4px;
+  margin-right: 24px;
+}
+
+.flexSpiner {
+  display: flex;
+  align-items: center;
+}
+.nav{
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  margin-right: 20px;
+}
+.nav:hover{
+  color: grey;
+}

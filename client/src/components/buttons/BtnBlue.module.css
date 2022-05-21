@@ -1,0 +1,29 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+.flex:hover {
+  border: 1px solid #376dc9;
+  background: #376dc9;
+}
+
+.flex:focus {
+  background: #376dc9;
+
+  border: 1px solid white;
+  outline: 1px solid #376dc9;
+}
+
+.flex:active {
+  background: #376dc9;
+  border: 1px solid white;
+  outline: 1px solid #376dc9;
+}

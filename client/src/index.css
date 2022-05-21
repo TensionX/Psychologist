@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: local("SF Pro Display Medium"), local("./fonts/SFProDisplay-Medium"),
+    url("./fonts/SFProDisplay-Medium.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/SFProDisplay-Medium.woff2") format("woff2"),
+    url("./fonts/SFProDisplay-Medium.woff") format("woff"),
+    url("./fonts/SFProDisplay-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./fonts/SFProDisplay-Heavy.eot");
+  src: local("SF Pro Display Heavy"), local("./fonts/SFProDisplay-Heavy"),
+    url("./fonts/SFProDisplay-Heavy.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/SFProDisplay-Heavy.woff2") format("woff2"),
+    url("./fonts/SFProDisplay-Heavy.woff") format("woff"),
+    url("./fonts/SFProDisplay-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./fonts/SFProDisplay-Bold.eot");
+  src: local("SF Pro Display Bold"), local("./fonts/SFProDisplay-Bold"),
+    url("./fonts/SFProDisplay-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/SFProDisplay-Bold.woff2") format("woff2"),
+    url("./fonts/SFProDisplay-Bold.woff") format("woff"),
+    url("./fonts/SFProDisplay-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./fonts/SFProDisplay-Semibold.eot");
+  src: local("SF Pro Display Semibold"), local("./fonts/SFProDisplay-Semibold"),
+    url("./fonts/SFProDisplay-Semibold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/SFProDisplay-Semibold.woff2") format("woff2"),
+    url("./fonts/SFProDisplay-Semibold.woff") format("woff"),
+    url("./fonts/SFProDisplay-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./fonts/SFProDisplay-Regular.eot");
+  src: local("SF Pro Display Regular"), local("./fonts/SFProDisplay-Regular"),
+    url("./fonts/SFProDisplay-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/SFProDisplay-Regular.woff2") format("woff2"),
+    url("./fonts/SFProDisplay-Regular.woff") format("woff"),
+    url("./fonts/SFProDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --main-bg-color: #e5e5e5;
+
+  --dark-text: #2b3135;
+  --light-text: #727e83;
+  --grey-color: #d3d5da;
+  --grey-btn: #8696a0;
+
+  --accent-color: #4781e5;
+  --green-color: #00e676;
+  --white-color: white;
+  --error-color: #ff1616;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+  font-family: SF-Pro-Display, Helvetica, Arial, sans-serif;
+  background: var(--main-bg-color);
+  color: var(--light-text);
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+address,
+em,
+img,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+footer,
+header menu,
+nav,
+output,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  outline: none;
+}
+html {
+  height: 101%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+strong {
+  font-weight: bold;
+}
+
+input {
+  outline: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+img {
+  border: 0;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 4px;
+  background: #f2f3f4;
+}
+
+.flex:hover {
+  background: #fff;
+}
+
+.flex:focus {
+  background: #fff;
+}
+
+.flex:active {
+  background: #fff;
+  border: 1px solid white;
+  outline: 1px solid black;
+}
+
+.icon {
+  fill: #fff;
+  width: 14px;
+  height: 7px;
+  margin-right: 10px;
+}
+.name {
+  color: #fff;
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 16px;
+}
